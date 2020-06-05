@@ -1,17 +1,16 @@
 body {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 .navbar {
- min-height: 60px;
+  min-height: 100px !important;
 }
 
-.navbar-brand {
-  align-items: center;
-  display: flex;
+.logo {
  /* padding: 5px 20px; */
-  width: auto;
-  height: 100%;
+  /* width: auto; */
+  height: 70px;
+  line-height: 80px;
   /* height: 60px;
   line-height: 60px; */
 }
@@ -22,16 +21,20 @@ button.navbar-btn{
   display: flex;
   margin-top: 20px;
   margin-left: 10px; */
+  margin-top: 26px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* @media (min-width: 768px) { */
-.my-nav-padding {
- /* (60px - line-height of 27px) / 2 = 26.5px */
- margin-top: 20px;
- /* top: 50%; */
+.navbar-nav > li > a {
+  padding-top:30px !important;
+  padding-bottom:30px !important;
+  height: 100px;
 }
-/* } */
+.navbar-toggle {
+  padding: 0 0;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
