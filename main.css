@@ -1,26 +1,5 @@
 
-/* .navbar {
-  min-height: 100px !important;
-  background-color: #ffffff;
-} */
-
-/* .nav-items {
-  left: 40%;
-  position: absolute;
-} */
-/* .my-toggler {
-  left: 80%;
-  position: absolute;
-} */
-
-/* a.navbar-brand {
-  transform: translateX(-50%);
-  left: 25%;
-  position: absolute;
-  display: block;
-  padding: 3px 0px;
-} */
-
+/* Makes the donate button blue and changes it color on hover */
 .btn-primary, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
   background-color: #344a9f;
   border-color: #344a9f;
@@ -30,10 +9,12 @@
   border-color: #162044;
 }
 
+/* Makes the jumbotron background on the index page red */
 .jumbotron{
   background-color: #d42927;
 }
 
+/* Makes the logo and body offset smaller if the user is on a phone */
 .logo {
   height: 44px;
 }
@@ -41,7 +22,20 @@ body {
   padding-top: 50px;
 }
 
-/* Small Devices, Tablets */
+.white-text {
+  color: white;
+}
+
+/* Sets the width of the thumbnails of students in index */
+.student-pic {
+  width: 300px;
+}
+
+.footer-copyright {
+  background-color: #344a9f;
+}
+
+/* If device is bigger than a phone, make the logo bigger and add spacing between nav bar items */
 @media only screen and (min-width : 768px) {
   .logo {
     height: 94px;
