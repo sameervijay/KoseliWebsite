@@ -2,10 +2,10 @@ body {
   padding-top: 100px;
 }
 
-.navbar {
+/* .navbar {
   min-height: 100px !important;
   background-color: #ffffff;
-}
+} */
 
 .nav-item {
   margin-left: 30px;
@@ -39,26 +39,6 @@ body {
   background-color: #162044;
   border-color: #162044;
 }
-
-/* First property makes "Donate" button look vertically centered, second property sets its color */
-/* .navbar-btn {
-  margin-left: 10px;
-  margin-top: 28px;
-
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-} */
-
-.navbar-nav > li > a {
-  line-height: 70px;
-}
-/* .navbar-toggle {
-  padding: 0 0;
-  margin-top: 7px;
-  margin-bottom: 0;
-} */
 
 .jumbotron{
   background-color: #d42927;
