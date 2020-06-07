@@ -7,18 +7,26 @@ body {
   background-color: #ffffff;
 }
 
-.nav-items {
-  left: 40%;
-  position: absolute;
+.nav-item {
+  margin-left: 30px;
 }
 
-a.navbar-brand {
+/* .nav-items {
+  left: 40%;
+  position: absolute;
+} */
+/* .my-toggler {
+  left: 80%;
+  position: absolute;
+} */
+
+/* a.navbar-brand {
   transform: translateX(-50%);
   left: 25%;
   position: absolute;
   display: block;
   padding: 3px 0px;
-}
+} */
 .logo {
   height: 94px;
 }
@@ -33,16 +41,15 @@ a.navbar-brand {
 }
 
 /* First property makes "Donate" button look vertically centered, second property sets its color */
-.navbar-btn {
+/* .navbar-btn {
   margin-left: 10px;
   margin-top: 28px;
-  /* background-color: #344a9f; */
 
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-}
+} */
 
 .navbar-nav > li > a {
   line-height: 70px;
@@ -58,8 +65,8 @@ a.navbar-brand {
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+/* @media only screen and (min-width : 768px) {
   .jumbotron{
     background-color: #ffffff;
   }
-}
+} */
