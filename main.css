@@ -1,4 +1,7 @@
 
+/* nav {
+  background-color: #f5b7b1;
+} */
 /* Makes the donate button blue and changes it color on hover */
 .btn-primary, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
   background-color: #344a9f;
@@ -9,9 +12,30 @@
   border-color: #162044;
 }
 
-/* Makes the jumbotron background on the index page red */
-.jumbotron{
+/* Makes the jumbotron background on the index page red, and sets font colors of the jumbotron text */
+.jumbotron {
   background-color: #d42927;
+  padding-top: 40px;
+  padding-bottom: 1px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+.display-4 {
+  color: #fdedec;
+}
+.lead {
+  color: #f5b7b1;
+}
+
+/* Handles carousel centering and styling */
+.carousel {
+  background-color: #000000;
+}
+.carousel-inner img {
+  margin: auto;
+}
+.my-carousel {
+  width: 300px;
 }
 
 /* Makes the logo and body offset smaller if the user is on a phone */
@@ -20,18 +44,42 @@
 }
 body {
   padding-top: 50px;
-}
-
-.white-text {
-  color: white;
+  background-color: #f8f9fa;
 }
 
 /* Sets the width of the thumbnails of students in index */
-.student-pic {
-  width: 300px;
+.card {
+  margin-left: 0px;
+  padding-left: 0px;
+  background-color: black;
+  /* background-color: #f8f9fa; */
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+.card:hover .overlay {
+  opacity: 0.7;
+}
+/* .card:hover .card-img {
+  opacity: 0.3;
+} */
+.card-img {
+  width: 350px;
+}
+/* .card-img-overlay {
+  padding-bottom: 10px;
+} */
 
-.footer-copyright {
+.footer {
   background-color: #344a9f;
 }
 
