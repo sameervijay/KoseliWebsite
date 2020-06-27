@@ -69,15 +69,10 @@ body {
 .card:hover .overlay {
   opacity: 0.7;
 }
-/* .card:hover .card-img {
-  opacity: 0.3;
-} */
 .card-img {
-  width: 350px;
+  height: 400px;
+  width:auto;
 }
-/* .card-img-overlay {
-  padding-bottom: 10px;
-} */
 
 .footer {
   background-color: #344a9f;
